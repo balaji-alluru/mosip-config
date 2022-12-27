@@ -49,14 +49,13 @@
       "type":"string",
       "enum":["random","partner","policy"]
     },
-	  "kycLanguages": {
-			"type": "array",
-			"items": {
-				"type": "string"
-			}
+		"kycLanguages":{
+			"type":"array",
+			 "items":{
+				 "type":"string"
+			 }
 		}
   },
-  
   "required":[
     "authTokenType",
     "allowedAuthTypes",
